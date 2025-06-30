@@ -120,7 +120,7 @@ int main() {
         }
 
         // Sleep for ~10ms to achieve 100Hz polling rate
-        std::this_thread::sleep_for(std::chrono::milliseconds(10));
+        std::this_thread::sleep_for(std::chrono::milliseconds(1));
     }
 
     return 0;
